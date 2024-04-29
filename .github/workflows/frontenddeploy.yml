@@ -1,0 +1,20 @@
+name: Frontend deployment
+
+on:
+  push:
+    branches:
+      - frontend-prod
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Frontend deployment
+      run: |
+        TOKEN="tKhXbcqYpicDLKbJ8kapKbZ"
+        URL="https://admin.kehillos.com/deploy/?type=frontend"
+        curl -X POST $URL -H "Authorization: Token $TOKEN"

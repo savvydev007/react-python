@@ -1,0 +1,61 @@
+env/
+migrations/
+logs/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore media and static files
+media/
+static/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore settings files
+*.secret_key
+*.settings
+
+# Ignore local configuration files
+*.local
+
+# Ignore development and testing settings
+*.development
+*.testing
+
+# Ignore IDE and text editor files
+.vscode/
+.idea/
+*.swo
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Ignore package-lock files for Node.js (if using)
+package-lock.json
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore cache files
+__pycache__/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore database migrations (customize this if needed)
+*/migrations/
+.env
+testing_sample.py
+# Ignore compiled translations
+locale/

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Firefox */
+* {
+  scrollbar-width: 7px;
+  scrollbar-color: #4318FF;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #E9EDF7;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4318FF;
+  border-radius: 10px;
+}
+
+.success {
+  background-color: #22C55E;
+  color: white;
+}
+
+.error {
+  color: white;
+  background-color: #EF4444;
+}
+
+.custom-word-break {
+  word-break: break-word;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.PhoneInputCountrySelectArrow {
+  margin: 0 8px;
+}

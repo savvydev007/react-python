@@ -1,0 +1,15 @@
+{
+  "fieldTypes": {
+    "text": "TYPE_TEXT",
+    "email": "TYPE_TEXT",
+    "float": "TYPE_FLOAT",
+    "number": "TYPE_INT",
+    "int": "TYPE_INT",
+    "phone": "TYPE_INT",
+    "date": "TYPE_DATE",
+    "checkbox": "TYPE_BOOLEAN",
+    "select": "TYPE_ENUM",
+    "json": "TYPE_JSON",
+    "csv": "TYPE_CSV"
+  }
+}

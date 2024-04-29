@@ -1,0 +1,11 @@
+{% if pretext %}
+    <h2>{{pretext}} {{time}}</h2>
+{% endif %}
+
+{% for url in urls %}
+    <p><a href="{{ url }}">{{ url|slice:"0:30" }}</a></p>
+{% endfor %}
+
+{% if aftertext %}
+    <h2>{{aftertext}} {{time}}</h2>
+{% endif %}

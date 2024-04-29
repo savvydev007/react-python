@@ -1,0 +1,9 @@
+{% if traffic_recording_open_doamin %}
+    {% if traffic_recording_open_doamin_pretext %}
+        <p>{{ traffic_recording_open_doamin_pretext }}</p>
+    {% endif %}
+
+    {% for url in urls %}
+        <p><a href="{{ url }}">{{ url|slice:"0:30" }}</a></p>
+    {% endfor %}
+{% endif %}
